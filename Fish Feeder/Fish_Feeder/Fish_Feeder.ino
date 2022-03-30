@@ -4,10 +4,10 @@ void setup() {
   myservo.attach(9);
 }
 void loop() {
-  myservo.write(90);
+  myservo.write(80);
   delay (1000);
-  myservo.write(180);
-  delay (500);
-  myservo.write(90);
+  myservo.write(110);
+  delay (120);
+  myservo.write(80);
   delay(86400000);
 }
